@@ -2,6 +2,10 @@
 
 A mini-course in loops in JS for novice programmers.
 
+# Prerequisites
+
+Familiarity with jQuery.
+
 # Contents
 
 - [Setup](#setup)
