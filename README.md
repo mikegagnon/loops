@@ -78,3 +78,28 @@ outside loop: x = 2
 6. Having exited the loop, `console.log` writes `outside loop: x = 2`
 
 ## Example 2
+
+```js
+
+var x = 5;
+
+while (x >= 0) {
+
+    console.log("inside loop: x = " + x);
+
+    x -= 1;
+}
+
+console.log("outside loop: x = " + x);
+
+```
+### Output 
+```
+inside loop: x = 5
+inside loop: x = 4
+inside loop: x = 3
+inside loop: x = 2
+inside loop: x = 1
+inside loop: x = 0
+outside loop: x = -1
+```
