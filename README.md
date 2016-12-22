@@ -122,8 +122,6 @@ while (x < 2) {
         y += 1;
     }
 
-    console.log("outside outer loop loops: x = " + x);
-
     x += 1;
 }
 
@@ -205,3 +203,53 @@ inside loop: x = 1
 outside loop: x = 2
 ```
 
+## Example 2
+
+The `for`-loop version of Lecture 1, Example 2
+
+```js
+for (var x = 5; x >= 0; x -= 1) {
+    console.log("inside loop: x = " + x);
+}
+
+console.log("outside loop: x = " + x);
+```
+
+### Output 
+```
+inside loop: x = 5
+inside loop: x = 4
+inside loop: x = 3
+inside loop: x = 2
+inside loop: x = 1
+inside loop: x = 0
+outside loop: x = -1
+```
+
+## Example 3
+
+The `for`-loop version of Lecture 1, Example 3
+
+```js
+for (var x = 0; x < 2; x += 1) {
+    for (var y = 0; y < 4; y += 1) {
+        console.log("inside inner loop: x = " + x + ", y = " + y);
+    }
+}
+
+console.log("outside outer loop loops: x = " + x);
+```
+
+### Output
+
+```
+inside inner loop: x = 0, y = 0
+inside inner loop: x = 0, y = 1
+inside inner loop: x = 0, y = 2
+inside inner loop: x = 0, y = 3
+inside inner loop: x = 1, y = 0
+inside inner loop: x = 1, y = 1
+inside inner loop: x = 1, y = 2
+inside inner loop: x = 1, y = 3
+outside loops: x = 2
+```
