@@ -103,3 +103,42 @@ inside loop: x = 1
 inside loop: x = 0
 outside loop: x = -1
 ```
+
+## Example 3
+
+Nested `while` loops.
+
+```js
+
+var x = 0;
+
+while (x < 2) {
+    
+    var y = 0;
+
+    while (y < 4) {
+        console.log("inside inner loop: x = " + x + ", y = " + y);
+        y += 1;
+    }
+
+    console.log("outside outer loop loops: x = " + x);
+
+    x += 1;
+}
+
+console.log("outside outer loop loops: x = " + x);
+```
+
+### Output
+
+```
+inside inner loop: x = 0, y = 0
+inside inner loop: x = 0, y = 1
+inside inner loop: x = 0, y = 2
+inside inner loop: x = 0, y = 3
+inside inner loop: x = 1, y = 0
+inside inner loop: x = 1, y = 1
+inside inner loop: x = 1, y = 2
+inside inner loop: x = 1, y = 3
+outside loops: x = 2
+```
