@@ -5,7 +5,8 @@ A mini-course in loops in JS for novice programmers.
 # Contents
 
 - [Setup](#setup)
-- [Lecture 1. While loops](#lec1)
+- [Lecture 1. `while` loops](#lec1)
+- [Lecture 2. `for` loops](#lec2)
 
 # <a name="setup">Setup</a>
 
@@ -25,7 +26,7 @@ A mini-course in loops in JS for novice programmers.
 
 Initialize to an empty file.
 
-# <a name="lec1">Lecture 1. While loops</a>
+# <a name="lec1">Lecture 1. `while` loops</a>
 
 A `while` loop looks like this:
 
@@ -142,3 +143,5 @@ inside inner loop: x = 1, y = 2
 inside inner loop: x = 1, y = 3
 outside loops: x = 2
 ```
+
+# <a name="lec2">Lecture 2. `for` loops</a>
