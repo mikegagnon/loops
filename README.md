@@ -7,6 +7,7 @@ A mini-course in loops in JS for novice programmers.
 - [Setup](#setup)
 - [Lecture 1. `while` loops](#lec1)
 - [Lecture 2. `for` loops](#lec2)
+- [Challenges](#challenges)
 
 # <a name="setup">Setup</a>
 
@@ -252,4 +253,98 @@ inside inner loop: x = 1, y = 1
 inside inner loop: x = 1, y = 2
 inside inner loop: x = 1, y = 3
 outside loops: x = 2
+```
+
+# Challenges
+
+## Challenge 1
+
+Write a for loop that produces the following output:
+
+```
+inside inner loop: x = 3
+inside inner loop: x = 4
+inside inner loop: x = 5
+inside inner loop: x = 6
+```
+
+## Challenge 2
+
+Write a for loop that produces the following output:
+
+```
+inside inner loop: x = 10
+inside inner loop: x = 9
+inside inner loop: x = 8
+inside inner loop: x = 7
+```
+
+## Challenge 3
+
+Say you have an array color names:
+```
+var colors = ["grey", "pink", "brown", "red"];
+```
+
+Write a for loop that produces the following output:
+```
+inside inner loop: color = grey
+inside inner loop: color = pink
+inside inner loop: color = brown
+inside inner loop: color = red
+```
+
+## Challenge 4
+
+Say you have a 2-dimensional array:
+
+```
+var matrix = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9],
+  [10,11,12],
+]
+```
+
+Write 2 `for` loops (one nested within the other) that produce the following output:
+
+```
+matrix[0][0] == 1
+matrix[0][1] == 2
+matrix[0][2] == 3
+
+matrix[1][0] == 4
+matrix[1][1] == 5
+matrix[1][2] == 6
+
+matrix[2][0] == 7
+matrix[2][1] == 8
+matrix[2][2] == 9
+
+matrix[3][0] == 10
+matrix[3][1] == 11
+matrix[3][2] == 12
+```
+
+## Challenge 5
+
+Say you have these nested arrays:
+
+```
+var arrays = [
+  ["a", "b", "c"],
+  ["d", "e"],
+  ["f"],
+  ["g", "h", "i", "j"],
+]
+```
+
+Write 2 `for` loops (one nested within the other) that produce the following output:
+
+```
+a b c
+d e
+f
+g h i j
 ```
