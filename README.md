@@ -26,3 +26,13 @@ A mini-course in loops in JS for novice programmers.
 Initialize to an empty file.
 
 # <a name="lec1">Lecture 1. While loops</a>
+
+A `while` loop looks like this:
+
+```js
+while (boolean condition) {
+  // body of the loop
+}
+```
+
+So long as `boolean condition` is `true`, the loop executes the `body of the loop`.
