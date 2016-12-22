@@ -20,6 +20,7 @@ Familiarity with jQuery.
 <html>
   <head>
     <title>Loops</title>
+    <script src="jquery.js"></script>
     <script src="loops.js"></script>
   </head>
 </html>
@@ -45,8 +46,11 @@ So long as `boolean condition` is `true`, the loop executes the `body of the loo
 
 ```js
 var x = 0;
-while (x < 4) {
-  console.log(x);
-  x += 1;
+while (x < 2) {
+
+    var paragraph = "<p>" + x + "</p>";
+    $("html").append(paragraph);
+
+    x += 1;
 }
 ```
