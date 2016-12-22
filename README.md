@@ -2,10 +2,6 @@
 
 A mini-course in loops in JS for novice programmers.
 
-# Prerequisites
-
-Familiarity with jQuery.
-
 # Contents
 
 - [Setup](#setup)
@@ -20,7 +16,6 @@ Familiarity with jQuery.
 <html>
   <head>
     <title>Loops</title>
-    <script src="jquery.js"></script>
     <script src="loops.js"></script>
   </head>
 </html>
@@ -81,3 +76,5 @@ outside loop: x = 2
 5. Like step 2, the `while` loop evaluates the boolean condition `x < 2`
   - Since `x == 2`, then `x < 2` is `false`, and therefore the `while` loop exits
 6. Having exited the loop, `console.log` writes `outside loop: x = 2`
+
+## Example 2
