@@ -46,11 +46,13 @@ So long as `boolean condition` is `true`, the loop executes the `body of the loo
 
 ```js
 var x = 0;
+
 while (x < 2) {
 
-    var paragraph = "<p>" + x + "</p>";
-    $("html").append(paragraph);
+    console.log("inside loop: x = " + x);
 
     x += 1;
 }
+
+console.log("outside loop: x = " + x);
 ```
