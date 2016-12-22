@@ -4,6 +4,9 @@ A mini-course in loops in JS for novice programmers.
 
 # Contents
 
+- [Setup](#setup)
+- [Lecture 1. While loops](#lec1)
+
 # <a name="setup">Setup</a>
 
 ## `index.html`
