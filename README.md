@@ -6,8 +6,20 @@ A mini-course in loops in JS for novice programmers.
 
 - [Setup](#setup)
 - [Lecture 1. `while` loops](#lec1)
+  - Example 1
+  - Example 2
+  - Example 3
 - [Lecture 2. `for` loops](#lec2)
+  - Example 1
+  - Example 2
+  - Example 3
 - [Challenges](#challenges)
+  - Challenge 1
+  - Challenge 2
+  - Challenge 3
+  - Challenge 4
+  - Challenge 5
+  
 
 # <a name="setup">Setup</a>
 
