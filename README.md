@@ -145,3 +145,63 @@ outside loops: x = 2
 ```
 
 # <a name="lec2">Lecture 2. `for` loops</a>
+
+Notice in the `while` loops above there are 5 steps common to every `while` loop we have seen:
+
+- (A) **Init**: Initialize a variable
+- (B) **Check**: Check a boolean condition upon the variable (and only enter the loop body if the condition is true)
+- (C) **Body**: Execute the body
+- (D) **Modify**: Modify the variable
+- (E) **Loop**: Go back to (B)
+
+To refer back to Lecure 1, Example 1:
+
+```js
+
+// (A) Init: Initialize a variable
+var x = 0;
+
+// (B) Check: Check a boolean condition upon the variable
+while (x < 2) {
+
+    // (C) Body: Execute the body
+    console.log("inside loop: x = " + x);
+
+    // (D) Modify: Modify the variable
+    x += 1;
+    
+    // (E) Loop: Go back to (B)
+}
+
+console.log("outside loop: x = " + x);
+```
+
+A `for` loop tidies up those three steps like so:
+
+```
+for (A; B; D) {
+    C;
+    E;
+}
+```
+
+## Example 1
+
+For example, we can turn the `while` loop from Lecture 1, Example 1 into a `for` loop as so:
+
+```js
+for (var x = 0; x < 2; x += 1) {
+    console.log("inside loop: x = " + x);
+}
+
+console.log("outside loop: x = " + x);
+```
+
+### Output
+
+```
+inside loop: x = 0
+inside loop: x = 1
+outside loop: x = 2
+```
+
